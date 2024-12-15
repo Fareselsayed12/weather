@@ -1,0 +1,86 @@
+
+:root {
+  
+    --secondary-color: #323544; 
+    --text-color:#fff ; 
+    --hover-color: #0dcaf0; 
+    --placeholder-color: rgba(103, 169, 230, 0.6); 
+    --degree-font-:6rem;
+}
+
+body {
+    color: var(--text-color);
+}
+
+.logo-box {
+    vertical-align: middle;
+    margin-left: 10px;
+    font-size: 10px;
+    color: var(--text-color);
+}
+
+.navbar li a {
+    font-size: 12px;
+    color: var(--text-color);
+    padding: 5px 25px !important;
+}
+
+.navbar {
+    background-color: var(--secondary-color) !important;
+}
+
+.navbar .my-hover:hover a {
+    color: var(--hover-color) !important;
+    border: solid 2px var(--hover-color) ;
+    border-radius: 30px;
+    
+}
+
+.hero-section {
+    background-image: url(../img/hero.png);
+    min-height: 19.875rem;
+    padding: 70px 0;
+    background-color: var(--secondary-color);
+}
+
+input {
+    background-color: var(--secondary-color) !important;
+    border: none !important;
+    color: var(--text-color);
+}
+
+input::placeholder {
+    color: var(--placeholder-color) !important;
+}
+
+.main-color {
+    background-color: var(--secondary-color);
+    color: var(--text-color);
+}
+
+footer a {
+    text-decoration: none !important;
+    color: var(--hover-color) !important;
+    background-color: var();
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    border: solid .125rem var(--text-color);
+}
+footer a:hover{
+    background-color: var(--hover-color) !important;
+    color:var(--secondary-color) !important;
+
+}
+footer {
+    background-color: var(--secondary-color);
+    color: var(--text-color);
+}
+.my-font-size{
+    font-size: var(--degree-font-) ;
+}
+/* 6d1c92c1bd6d4c2abe3190242241212 */
